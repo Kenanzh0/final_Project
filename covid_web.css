@@ -1,0 +1,20 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .header{
+        width: 100%;
+        background-image: linear-gradient(to right, #feffff ,#c7c8d6);
+    }
+    .navbar-brand{ color: white!important;}
+    .nav-link{ color: rgb(0, 0, 0)!important;}
+    .nav-link:hover{ color: rgb(85, 164, 248)!important;}
+    @media(max-width:668px){
+        .nav-link{text-align: center;
+        }
+    }
+    
+    .logo img {
+        max-height: 60px;
+    }
